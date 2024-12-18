@@ -1,3 +1,5 @@
+We have a [Database Schema](https://github.com/calvin-cs262-fall2024-teamH/Service/blob/main/Team%20H%20Database%20Schema.png) you can take a look at to better understand our database.
+
 This is the data service application for the TutorsHub project, which is deployed here:
 
 [Link to our Azure database](https://calvintutorshub.azurewebsites.net/)
