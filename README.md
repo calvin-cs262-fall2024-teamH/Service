@@ -10,9 +10,13 @@ The service exposes the following read data route URLs:
 
 `/users/:id` - A single user with the given ID  
 
-`/sessions` - A list of tutoring sessions 
+`/tutors` - A list of tutors
 
-`/sessions/:id` - A single tutoring session with the given ID 
+`/tutors/:name` - Information for a given user 
+
+`/courseCodes` - A list of courses offered
+
+`/courseCodes/:code` - Information for a given course
 
 The database is relational, with the schema specified in the sql/ sub-directory, and is hosted on [Azure PostgreSQL](https://azure.microsoft.com/en-us/products/postgresql/). Database server details, along with user and password credentials, are stored as Azure application settings to ensure they are not exposed in this (public) repository.
 
